@@ -125,7 +125,7 @@ def log(msg):
         pass
 
 def read_setting():
-        with open('setting.json') as json_file:
+        with open('settinga.json') as json_file:
             return json.load(json_file)
              
 config = read_setting()
